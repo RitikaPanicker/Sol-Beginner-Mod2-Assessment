@@ -1,53 +1,47 @@
-## # Solana Phantom Wallet Integration React App
+## Integration of Solana Phantom Wallet
+This React application serves as a straightforward demonstration of how to seamlessly integrate with the Solana blockchain through the Phantom wallet provider. The application empowers users to perform various actions such as creating wallets, connecting to existing wallets, transferring SOL tokens, and checking wallet balances.
 
-## Overview
+Table of Contents
+Getting Started
+Key Features
+Dependencies
+Usage
+Contribution
+Getting Started
+To locally run the application, follow these steps:
 
-Welcome to our React application showcasing integration with the Solana blockchain through the Phantom wallet provider. This project enables users to perform various operations such as creating wallets, connecting to existing wallets, transferring SOL tokens, and checking wallet balances.
+Clone this repository to your local machine.
+Navigate to the project directory in your terminal.
+Install the project dependencies using the command: npm install
+Initiate the development server: npm start
+Open your browser and navigate to: http://localhost:3000
+Key Features
+Generate a new Solana account seamlessly.
+Establish connection with an existing Phantom wallet effortlessly.
+Request an airdrop of SOL tokens effortlessly.
+Facilitate the transfer of SOL tokens to connected wallets.
+Verify the balance of connected wallets.
+Dependencies
+This project leverages the following technologies and libraries:
 
-## Table of Contents
+React
+Solana Web3.js
+Phantom Wallet
+Usage
+Create a New Solana Account: Click the "Create a New Solana Account" button. This action will generate a new account, request an airdrop of SOL tokens, and display the created wallet's information.
 
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-  
-## Getting Started
+Connect Wallet: Click the "Connect Wallet" button to seamlessly connect to an existing Phantom wallet. Once connected, users can easily transfer tokens and check balances.
 
-To run the application locally, follow these steps:
+Transfer SOL to New Account: After creating a new account or connecting a wallet, utilize the "Transfer SOL to New Account" button to send SOL tokens to the newly created account.
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory in your terminal.
-3. Install the project dependencies using the command: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and go to: [http://localhost:3000](http://localhost:3000)
+Get Wallet Balance: Click the "Get Wallet Balance" button to effortlessly check the balance of the currently connected wallet or the newly created account.
 
-## Features
+Contribution
+Contributions to enhance and expand this project are welcome. Feel free to submit your contributions through pull requests.
 
-1. **Create a New Solana Account:** Generate a new account, request an airdrop of SOL tokens, and display the created wallet's information.
 
-2. **Connect Wallet:** Connect to an existing Phantom wallet, enabling the ability to transfer tokens and check balances.
 
-3. **Request Airdrop:** Obtain an airdrop of SOL tokens to the connected wallet.
 
-4. **Transfer SOL Tokens:** After creating a new account or connecting a wallet, transfer SOL tokens to the new account.
 
-5. **Check Wallet Balance:** View the balance of the currently connected wallet or the new account.
 
-## Dependencies
-
-This project relies on the following technologies and libraries:
-
-- React
-- Solana Web3.js
-- Phantom Wallet
-
-## Usage
-
-1. **Create a New Solana Account:** Click the "Create a New Solana Account" button.
-   
-2. **Connect Wallet:** Click the "Connect Wallet" button to connect to an existing Phantom wallet.
-
-3. **Request Airdrop:** Use the "Request Airdrop" button to receive SOL tokens in the connected wallet.
-
-4. **Transfer SOL to New Account:** After creating a new account or connecting a wallet, click "Transfer SOL to New Account" to send SOL tokens.
 
